@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url(static/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #011627;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.heading-1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 36px;
+    color: #e3722e;
+}
+
+.heading-1::before {
+    content: "# ";
+}
+
+.heading-2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #62b574;
+}
+
+.heading-2::before {
+    content: "## ";
+}
+
+.heading-3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 18px;
+    color: #62b574;
+}
+
+.heading-3::before {
+    content: "### ";
+}
+
+.heading-4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 18px;
+    color: #62b574;
+}
+
+.heading-4::before {
+    content: "#### ";
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.list-item:not(:last-child) {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.paragraph--last {
+    margin-bottom: 24px;
+}
