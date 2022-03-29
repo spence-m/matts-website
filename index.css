@@ -18,6 +18,32 @@ body {
     max-width: 960px;
 }
 
+.main {
+    margin-bottom: 36px;
+}
+
+.nav {
+    margin-bottom: 36px;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav__list-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.nav__list-link {
+    color: #fff;
+}
+
+.nav__list-link:visited {
+    color: #fff;
+}
+
 .heading-1 {
     font-size: 1rem;
     font-weight: 700;
@@ -73,10 +99,14 @@ body {
     margin-bottom: 24px;
 }
 
-.list-item:not(:last-child) {
+.list__item:not(:last-child) {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 8px;
+}
+
+.list__item-link:visited {
+    color: #fff;
 }
 
 .paragraph {
@@ -89,4 +119,12 @@ body {
 
 .paragraph--last {
     margin-bottom: 24px;
+}
+
+.footer__link {
+    color: #fff;
+}
+
+.footer__link:visited {
+    color: #fff;
 }
