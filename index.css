@@ -149,6 +149,10 @@ a:visited {
     margin-bottom: 24px;
 }
 
+.paragraph--attention {
+    color: #ffef69;
+}
+
 .footer__link {
     color: #fff;
 }
