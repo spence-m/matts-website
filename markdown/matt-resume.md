@@ -73,7 +73,7 @@ Tech:
 
 #### Highlights
 
-- Worked on an award winning medical app that’s used by medical professionals around the globe.
+- Worked on an award winning medical app that’s used by medical professionals around the globe
 
 Agency based in Cardiff where I worked on a Sitecore website and two hybrid mobile apps.
 
