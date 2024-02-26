@@ -23,6 +23,7 @@ export const ContactForm = () => {
         type="submit"
         value="Send"
       />
+      <input type="hidden" name="contact" value="contact" />
     </form>
   );
 };
