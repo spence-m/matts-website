@@ -10,7 +10,7 @@ export const ContactForm = () => {
       <input
         name="email"
         className={`${roboto.className} mb-5 w-full rounded-xl p-2 sm:max-w-md`}
-        type="text"
+        type="email"
         placeholder="Your email address"
         required
       />
