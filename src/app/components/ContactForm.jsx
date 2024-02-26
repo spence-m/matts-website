@@ -6,7 +6,7 @@ const roboto = Roboto_Flex({
 
 export const ContactForm = () => {
   return (
-    <form className="flex flex-col" name="contact" method="POST" netlify>
+    <form className="flex flex-col" name="contact" method="POST" data-netlify="true">
       <input
         name="email"
         className={`${roboto.className} mb-5 w-full rounded-xl p-2 sm:max-w-md`}
@@ -23,7 +23,6 @@ export const ContactForm = () => {
         type="submit"
         value="Send"
       />
-      <input type="hidden" name="contact" value="contact" />
     </form>
   );
 };
