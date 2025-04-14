@@ -13,8 +13,8 @@ export const JobCards = () => {
         <JobCard
           jobTitle="Senior Fullstack Developer"
           company="Collection Pot"
-          startEnd="Apr 2024 - Present"
-          imgSrc="/images/collection_pot_logo.jpg"
+          startEnd="Apr 2024 - Apr 2025"
+          imgSrc="/.netlify/images?url=/images/collection_pot_logo.jpg?w=200&h=200&q=100"
           imgAlt="Collection Pot's logo"
         />
       </div>
@@ -24,7 +24,7 @@ export const JobCards = () => {
           jobTitle="Digital Developer"
           company="Harrods"
           startEnd="May 2023 - Feb 2024"
-          imgSrc="/images/harrods_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/harrods_logo.jpg?w=200&h=200&q=100"
           imgAlt="Harrods, the luxury brand, logo"
         />
       </div>
@@ -34,7 +34,7 @@ export const JobCards = () => {
           jobTitle="Web Engineer"
           company="LUSH Digital"
           startEnd="Jul 2021 - Apr 2023"
-          imgSrc="/images/lush_digital_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/lush_digital_logo.jpg?w=200&h=200&q=100"
           imgAlt="Lush, the inventors of the bathbomb, logo"
         />
       </div>
@@ -44,7 +44,7 @@ export const JobCards = () => {
           jobTitle="Software Engineer"
           company="GoCompare"
           startEnd="Jun 2020 - Jun 2021"
-          imgSrc="/images/gocompare_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/gocompare_logo.jpg?w=200&h=200&q=100"
           imgAlt="GoCompare, the insurance broker with the annoying operatic singer, logo"
           lastOnColumn
         />
@@ -55,7 +55,7 @@ export const JobCards = () => {
           jobTitle="Software Engineer"
           company="Box UK"
           startEnd="Nov 2017 - Mar 2020"
-          imgSrc="/images/box_uk_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/box_uk_logo.jpg?w=200&h=200&q=100"
           imgAlt="Box UK, a digital agency based in Cardiff, logo"
         />
       </div>
@@ -65,7 +65,7 @@ export const JobCards = () => {
           jobTitle="Software Developer"
           company="Sigma Systems"
           startEnd="Mar 2017 - Nov 2017"
-          imgSrc="/images/sigma_systems_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/sigma_systems_logo.jpg?w=200&h=200&q=100"
           imgAlt="Sigma System's logo"
         />
       </div>
@@ -75,7 +75,7 @@ export const JobCards = () => {
           jobTitle="Junior Software Developer"
           company="Sigma Systems"
           startEnd="Nov 2015 - Mar 2017"
-          imgSrc="/images/sigma_systems_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/sigma_systems_logo.jpg?w=200&h=200&q=100"
           imgAlt="Sigma System's logo"
         />
       </div>
@@ -85,7 +85,7 @@ export const JobCards = () => {
           jobTitle="Junior Software Engineer"
           company="General Dynamics"
           startEnd="Sep 2014 - Nov 2015"
-          imgSrc="/images/general_dynamics_logo.jpg"
+          imgSrc="/.netlify/images?url=/images/general_dynamics_logo.jpg?w=200&h=200&q=100"
           imgAlt="General Dynamics' logo"
           last
         />

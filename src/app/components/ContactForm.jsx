@@ -42,7 +42,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <form className="flex flex-col" name="contact" method="POST" onSubmit={handleFormSubmit}>
+    <form className="flex flex-col items-center" name="contact" method="POST" onSubmit={handleFormSubmit}>
       <input type="hidden" name="form-name" value="contact" />
       <input
         name="email"
