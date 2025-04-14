@@ -7,7 +7,7 @@ const roboto = Roboto_Flex({
   subsets: ["latin"],
 });
 
-export const ContactForm = forwardRef(({ }, ref) => {
+const ContactForm = forwardRef(({ }, ref) => {
   const [loading, setLoading] = useState(false);
   const [sendText, setSendText] = useState("Send");
 
@@ -64,3 +64,7 @@ export const ContactForm = forwardRef(({ }, ref) => {
     </form>
   );
 });
+
+ContactForm.displayName = "ContactForm";
+
+export { ContactForm };
