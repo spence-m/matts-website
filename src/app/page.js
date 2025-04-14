@@ -36,7 +36,7 @@ export default function Home() {
               Hi 👋, I’m Matt, a front-end developer who specialises in React
             </h1>
             <h1 className="text-2xl font-bold text-white">
-              I’m currently <span className="text-orange-500 motion-safe:animate-bounce inline-block" onClick={() => {
+              I’m currently <span className="text-orange-500 motion-safe:animate-bounce inline-block cursor-pointer" onClick={() => {
                 ref.current.scrollIntoView({ behavior: "smooth" });
               }}>#opentowork</span>
               . You can contact me about remote opportunities or opportunities local to Cardiff, Wales, UK.
