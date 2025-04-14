@@ -24,7 +24,7 @@ export default function Home() {
           <section className="mb-12 max-w-2xl">
             <img
               className="clear-left mx-auto mb-4 w-48 rounded-xl transition duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 sm:float-left sm:mb-0 sm:mr-6"
-              src="/images/matt-with-cat.jpg"
+              src="/.netlify/images?url=/images/matt-with-cat_fixed.jpg?w=211&h=281&q=100"
               alt="Matt holding his cat, Gizmo."
             />
             <h1 className="mb-6 text-2xl font-bold text-white">
@@ -36,13 +36,13 @@ export default function Home() {
             </h1>
           </section>
           <section className="mb-12 w-full max-w-2xl">
-            <h2 className={`${roboto.className} mb-7 text-xl text-green-600`}>
+            <h2 className={`${roboto.className} mb-7 text-xl text-green-600 text-center`}>
               Experience
             </h2>
             <JobCards />
           </section>
           <section className="mb-12 w-full max-w-2xl">
-            <h2 className={`${roboto.className} mb-7 text-xl text-green-600`}>
+            <h2 className={`${roboto.className} mb-7 text-xl text-green-600 text-center`}>
               Get in touch
             </h2>
             <ContactForm />
