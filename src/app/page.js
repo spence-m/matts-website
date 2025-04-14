@@ -1,3 +1,6 @@
+"use client";
+import { useRef } from "react";
+
 import { Roboto_Flex } from "next/font/google";
 
 import { ContactForm } from "./components/ContactForm";
@@ -8,6 +11,8 @@ const roboto = Roboto_Flex({
 });
 
 export default function Home() {
+  const ref = useRef(null);
+
   return (
     <>
       <header
@@ -31,8 +36,10 @@ export default function Home() {
               Hi 👋, I’m Matt, a front-end developer who specialises in React
             </h1>
             <h1 className="text-2xl font-bold text-white">
-              I’m currently <span className="text-orange-500">#opentowork</span>
-              . You can contact me about remote opportunities
+              I’m currently <span className="text-orange-500 motion-safe:animate-bounce inline-block" onClick={() => {
+                ref.current.scrollIntoView({ behavior: "smooth" });
+              }}>#opentowork</span>
+              . You can contact me about remote opportunities or opportunities local to Cardiff, Wales, UK.
             </h1>
           </section>
           <section className="mb-12 w-full max-w-2xl">
@@ -45,7 +52,7 @@ export default function Home() {
             <h2 className={`${roboto.className} mb-7 text-xl text-green-600 text-center`}>
               Get in touch
             </h2>
-            <ContactForm />
+            <ContactForm ref={ref} />
           </section>
         </div>
       </main>

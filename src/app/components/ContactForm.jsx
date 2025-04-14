@@ -1,13 +1,13 @@
 "use client";
 
 import { Roboto_Flex } from "next/font/google";
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 
 const roboto = Roboto_Flex({
   subsets: ["latin"],
 });
 
-export const ContactForm = () => {
+const ContactForm = forwardRef(({ }, ref) => {
   const [loading, setLoading] = useState(false);
   const [sendText, setSendText] = useState("Send");
 
@@ -42,7 +42,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <form className="flex flex-col items-center" name="contact" method="POST" onSubmit={handleFormSubmit}>
+    <form className="flex flex-col items-center" name="contact" method="POST" onSubmit={handleFormSubmit} ref={ref}>
       <input type="hidden" name="form-name" value="contact" />
       <input
         name="email"
@@ -63,4 +63,8 @@ export const ContactForm = () => {
       </button>
     </form>
   );
-};
+});
+
+ContactForm.displayName = "ContactForm";
+
+export { ContactForm };
