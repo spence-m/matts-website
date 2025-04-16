@@ -1,4 +1,5 @@
 import { Roboto_Flex } from "next/font/google";
+import { useState } from "react";
 
 const roboto = Roboto_Flex({
   subsets: ["latin"],
@@ -13,6 +14,8 @@ export const JobCard = ({
   last,
   lastOnColumn,
 }) => {
+  const [spin, setSpin] = useState(false);
+
   return (
     <article className="relative">
       <div className="absolute -left-11 top-0 hidden h-4 w-4 rounded-full bg-green-600 md:block"></div>
@@ -34,7 +37,14 @@ export const JobCard = ({
           </h3>
         </div>
         <div>
-          <img src={imgSrc} alt={imgAlt} className="w-20 rounded-xl" />
+          <img src={imgSrc} alt={imgAlt} className={`w-20 rounded-xl cursor-pointer ${spin ? "spin" : ""}`} onClick={() => {
+            if (spin) return;
+
+            setSpin(true);
+            setTimeout(() => {
+              setSpin(false);
+            }, 1000);
+          }} />
         </div>
       </div>
     </article>
